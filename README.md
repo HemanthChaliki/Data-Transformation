@@ -1,22 +1,25 @@
 # Data Transformation
 
-A Python project for data cleaning, preprocessing, and regular expression exercises using pandas and matplotlib.
+This Python project focuses on data cleaning, preprocessing, and transformation using real-world datasets. It showcases practical applications of regular expressions, pandas-based data manipulation, and data visualization with matplotlib.
 
 ## Overview
 
-This project demonstrates data transformation techniques including:
-- **Regular Expression Exercises**: Pattern matching and text processing examples
-- **Student Data Processing**: Cleaning, reshaping, and preprocessing exam data
-- **US Census Data Analysis**: Data cleaning and visualization of demographic data
+The project demonstrates essential data transformation techniques, including:
+**Regular Expression Practice**
+Hands-on exercises for pattern matching, text extraction, and string manipulation.
+**Student Exam Data Processing**
+Cleaning, restructuring, and preparing student performance data for analysis.
+**US Census Data Analysis**
+Cleaning demographic datasets and generating visual insights.
 
-## Features
+## KeyFeatures
 
-- Regex pattern matching exercises (11 exercises)
-- Data cleaning and preprocessing pipelines
-- DataFrame reshaping (wide to long format)
-- Missing value handling
-- Data type conversions
-- Data visualization with matplotlib
+- 11 regular expression exercises for text processing
+- End-to-end data cleaning and preprocessing workflows
+- Data reshaping (wide-to-long format conversion)
+- Handling missing and inconsistent values
+- Data type standardization and conversion
+- Exploratory data visualization using matplotlib
 
 ## Requirements
 
@@ -46,9 +49,11 @@ from data_cleaning_and_preprocessing import load_student_data, clean_score_colum
 
 ## Data Processing Pipeline
 
-1. Load and concatenate multiple CSV files
-2. Reshape data from wide to long format
-3. Remove duplicates
-4. Split composite columns (gender_age, full_name)
-5. Clean and convert data types (scores, grades)
+1. Load and merge multiple CSV files
+2. Transform data from wide to long format
+3. Remove duplicate records
+4. Split composite columns (e.g., gender_age, full_name)
+5. Clean and standardize numerical and categorical fields (scores, grades)
+6. Handle missing values and data inconsistencies
+
 6. Handle missing values
